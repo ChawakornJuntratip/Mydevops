@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เว็บไซต์แนะนำตัว</title>
+    <style>
+        /* กำหนดค่าพื้นฐานของหน้าเว็บ */
+        body {
+            font-family: 'Tahoma', 'Segoe UI', sans-serif;
+            background-color: #f4f7f6;
+            color: #333333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* จัดกล่องเนื้อหาให้อยู่ตรงกลางหน้าจอ */
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* ส่วนหัวข้อและรูปภาพ */
+        header {
+            text-align: center;
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #4A90E2;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            color: #2C3E50;
+            margin: 10px 0 5px 0;
+        }
+
+        h2 {
+            color: #4A90E2;
+            border-left: 4px solid #4A90E2;
+            padding-left: 10px;
+            margin-top: 30px;
+            font-size: 1.2rem;
+        }
+
+        /* ตารางประวัติส่วนตัวและการศึกษา */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            width: 30%;
+            color: #555;
+        }
+
+        /* รายการความสามารถและงานอดิเรก */
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        /* ส่วนท้ายเว็บ */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 15px;
+            border-top: 1px solid #eaeaea;
+            color: #777;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 1. ส่วนหัวข้อและข้อมูลเบื้องต้น -->
+        <header>
+            <!-- ใส่ลิงก์รูปภาพของคุณ หรือชื่อไฟล์รูป เช่น profile.jpg -->
+            <img src="Screenshot 2026-10-27 150616.png" alt="รูปโปรไฟล์" class="profile-img">
+            <h1>นายชวกรณ์ จันทราทิพย์</h1>
+            <p>นักศึกษาสาขาวิชาเทคโนโลยีสารสนเทศ วิทยาลัยอาชีวศึกษาภูเก็ต</p>
+        </header>
+
+        <!-- 2. ประวัติส่วนตัว -->
+        <section>
+            <h2>ข้อมูลส่วนตัว</h2>
+            <table>
+                <tr>
+                    <th>ชื่อ - นามสกุล:</th>
+                    <td>นายชวกรณ์ จันทราทิพย์</td>
+                </tr>
+                <tr>
+                    <th>ชื่อเล่น:</th>
+                    <td>โชกุน</td>
+                </tr>
+                <tr>
+                    <th>วันเดือนปีเกิด:</th>
+                    <td>17 กันยายน 2549</td>
+                </tr>
+                <tr>
+                    <th>อายุ:</th>
+                    <td>20 ปี</td>
+            </table>
+        </section>
+
+        <!-- 3. ประวัติการศึกษา -->
+        <section>
+            <h2>ประวัติการศึกษา</h2>
+            <table>
+                <tr>
+                    <th>ระดับมัธยมศึกษา:</th>
+                    <td>โรงเรียนดีบุกพังงาวิทยายน (พ.ศ.2562)</td>
+                </tr>
+                <tr>
+                    <th>ระดับประกาศนียบัตรวิชาชีพ:</th>
+                    <td>วิทยาลัยอาชีวศึกษาภูเก็ต (พ.ศ.2565)</td>
+                </tr>
+                <tr>
+                    <th>ระดับประกาศนียบัตรวิชาชีพชั้นสูง:</th>
+                    <td>วิทยาลัยอาชีวศึกษาภูเก็ต (กำลังศึกษาอยู่...)</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- 4. ความสามารถพิเศษและงานอดิเรก -->
+        <section>
+            <h2>ความสามารถพิเศษและงานอดิเรก</h2>
+            <ul>
+                <li><strong>ทักษะคอมพิวเตอร์:</strong> HTML, CSS, Python, Microsoft Office</li>
+                <li><strong>ภาษา:</strong> ภาษาไทย (ภาษาแม่), ภาษาอังกฤษ (ระดับสื่อสาร)</li>
+                <li><strong>งานอดิเรก:</strong> ฟังเพลง, เล่นดนตรี, เล่นกีฬา</li>
+            </ul>
+        </section>
+
+        <!-- 5. ช่องทางการติดต่อ -->
+        <section>
+            <h2>ช่องทางการติดต่อ</h2>
+            <table>
+                <tr>
+                    <th>อีเมล:</th>
+                    <td>chawagornjk@email.com</td>
+                </tr>
+                <tr>
+                    <th>เบอร์โทรศัพท์:</th>
+                    <td>083-241-2904</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- ส่วนท้าย -->
+        <footer>
+            <p>&copy; 2026 เว็บไซต์แนะนำตัวนี้จัดทำขึ้นเพื่อการศึกษา</p>
+        </footer>
+    </div>
+
+</body>
+</html>
